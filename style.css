@@ -1,11 +1,11 @@
 /*
-Theme Name: Christina Hendricks Blank Theme
+Theme Name: Christina Hendricks WIE Final
 Theme URI:
 Author: Christina Hendricks
-Description: Blank theme for WIE course
+Description: Final theme for WIE course
 Version: 0.1
 License: Open
-Text Domain: christina_hendricks_blank_template
+Text Domain: hendricks-wie-final2016
 */
 
 @import url("stylesheets/normalize.css");
@@ -90,26 +90,26 @@ ul {
   margin-bottom: 0;
 }
 
-.blank-menu-header {
+.menu-header {
     text-align: left;
     margin-top: 40px;
 }
-.blank-menu-header ul {
+.menu-header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
-.blank-menu-header li {
+.menu-header li {
     display: inline;
 }
-.blank-menu-header ul li a {
+.menu-header ul li a {
     text-decoration:none;
     margin: 4px;
     padding: 5px 0px 5px 40px;
     font-weight: 300;
     font-size: 1.1rem;
 }
-.blank-menu-header ul li a:hover {
+.menu-header ul li a:hover {
     color: #cccccc;
 }
