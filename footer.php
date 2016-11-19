@@ -13,5 +13,8 @@
         </footer>
       </div> <!-- End Container Div -->
       <?php wp_footer(); ?>
+
+      <script src="https://use.fontawesome.com/f9fd5646bd.js"></script>
+      
     </body>
 </html>
