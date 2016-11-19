@@ -14,14 +14,10 @@
                   <div class="three columns">
                       <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/SlicksAutoBody.png" alt="Slick's Auto Repair" /></a>
                   </div>
-                  <div class="nine columns">
+                  <div class="nine columns top-header">
                     <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <p>
-                      888 - 203 - 4455
-                    </p>
-                    <p>
-                      Hours: M - F 8am - 8pm, Saturday 9am - 5pm
-                    </p>
+                    <p>888 - 203 - 4455</p>
+                     <p>Hours: M - F 8am - 8pm, Saturday 9am - 5pm</p>
                     <a class="fa fa-facebook" href="https://facebook.com"></a>
                     <a class="fa fa-twitter" href="https://twitter.com"></a>
                     <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>

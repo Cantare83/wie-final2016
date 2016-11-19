@@ -13,7 +13,7 @@ Text Domain: christina_hendricks_blank_template
 
 html, body{
     color: #000000;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5em;
 }
 
@@ -48,7 +48,47 @@ a {
     text-decoration: none;
 }
 
+/*--- Header --- */
+
+.header-wrapper {
+  width: 100%;
+  background-color: #0e2948;
+  position: fixed;
+  top: 0px;
+  opacity: .9;
+  z-index: 2;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+
+.top-header {
+  padding-top: 20px;
+}
+
+header {
+  width: 960px;
+  margin: auto;
+}
+
+.header-wrapper p {
+  color: #ffffff;
+  display: inline;
+  padding-right: 1.5em;
+}
+
+.site-logo {
+  width: 70%;
+}
+
+.fa {
+  color: #ffffff;
+}
+
 /*--- Menu --- */
+
+ul {
+  margin-bottom: 0;
+}
 
 .blank-menu-header {
     text-align: left;
