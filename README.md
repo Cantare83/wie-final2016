@@ -1,5 +1,5 @@
-# Blank Template
+# Slick's Auto Repair
 
 ##Author: Christina Hendricks
 
-Blank WordPress Template for Web Interactivity and Engagement Course
+Final Project site for Web Interactivity and Engagement Class
