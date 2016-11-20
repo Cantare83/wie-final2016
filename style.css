@@ -10,16 +10,18 @@ Text Domain: hendricks-wie-final2016
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url('https://fonts.googleapis.com/css?family=Lato|Righteous');
 
 html, body{
-    color: #000000;
+    color: #0e2948;
     font-size: 16px;
     line-height: 1.5em;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #29293d;
-    font-weight: 700;
+    color: #0e2948;
+    font-family: 'Righteous', cursive;
 }
 
 h1 {
@@ -44,7 +46,6 @@ h5 {
 
 a {
     color: #39b589;
-    font-style: bold;
     text-decoration: none;
 }
 
@@ -61,8 +62,9 @@ a {
   padding-top: 10px;
 }
 
-.top-header {
+.right-header {
   padding-top: 20px;
+  margin-left: 0;
 }
 
 header {
@@ -90,26 +92,31 @@ ul {
   margin-bottom: 0;
 }
 
-.menu-header {
+.menu {
     text-align: left;
-    margin-top: 40px;
+    padding-left: 4px;
+    padding-bottom: 10px;
 }
-.menu-header ul {
+.menu ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
-.menu-header li {
+.menu li {
     display: inline;
 }
-.menu-header ul li a {
+.menu ul li a {
+    color: #ffffff;
     text-decoration:none;
-    margin: 4px;
-    padding: 5px 0px 5px 40px;
-    font-weight: 300;
-    font-size: 1.1rem;
+    padding: 0px 55px 0px 55px;
+    border-right: solid 1px #ffffff;
 }
-.menu-header ul li a:hover {
-    color: #cccccc;
+
+.menu li:last-child a {
+  border-right: none;
+}
+
+.menu ul li a:hover {
+    color: #1eaedb;
 }

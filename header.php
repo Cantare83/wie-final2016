@@ -14,7 +14,7 @@
                   <div class="three columns">
                       <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/SlicksAutoBody.png" alt="Slick's Auto Repair" /></a>
                   </div>
-                  <div class="nine columns top-header">
+                  <div class="nine columns right-header">
                     <i class="fa fa-mobile" aria-hidden="true"></i>
                     <p>888 - 203 - 4455</p>
                      <p>Hours: M - F 8am - 8pm, Saturday 9am - 5pm</p>
@@ -24,12 +24,14 @@
                   </div>
               </div>
               <div class="row">
+                <div class="twelve columns">
                 <?php
                     wp_nav_menu( array(
                       'sort_column' => 'menu-order',
                       'container_class' => 'menu-header'
                     ));
                 ?>
+                </div>
               </div>
           </header>
       </div>
