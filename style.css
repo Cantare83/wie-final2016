@@ -92,31 +92,33 @@ ul {
   margin-bottom: 0;
 }
 
-.menu {
+.menu-header {
     text-align: left;
-    padding-left: 4px;
     padding-bottom: 10px;
 }
-.menu ul {
+.menu-header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
 }
-.menu li {
+
+.menu-header li {
     display: inline;
 }
-.menu ul li a {
+
+.menu-header ul li a {
     color: #ffffff;
+    text-transform: uppercase;
     text-decoration:none;
-    padding: 0px 55px 0px 55px;
+    padding: 0px 25px 0px 25px;
     border-right: solid 1px #ffffff;
 }
 
-.menu li:last-child a {
+.menu-header li:last-child a {
   border-right: none;
 }
 
-.menu ul li a:hover {
+.menu-header ul li a:hover {
     color: #1eaedb;
 }
