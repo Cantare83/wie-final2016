@@ -10,7 +10,7 @@
     <body>
       <div class="header-wrapper">
           <header>
-              <div class="row">
+              <section class="row">
                   <div class="three columns">
                       <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/SlicksAutoBody.png" alt="Slick's Auto Repair" /></a>
                   </div>
@@ -22,8 +22,8 @@
                     <a class="fa fa-twitter" href="https://twitter.com"></a>
                     <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>
                   </div>
-              </div>
-              <div class="row">
+              </section>
+              <section class="row">
                 <div class="twelve columns">
                 <?php
                     wp_nav_menu( array(
@@ -32,7 +32,7 @@
                     ));
                 ?>
                 </div>
-              </div>
+              </section>
           </header>
       </div>
       <div class="container">  <!-- Begin Container Div -->
