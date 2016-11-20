@@ -31,7 +31,7 @@
                   12345 Oaks Lane <br/> Gainesville, FL 33445 <br/> slick@slicksautorepair.com <br/> 888 - 203 - 4455
                 </p>
               </div>
-              <div class="nine columns">
+              <div class="nine columns widgets-column">
                 <?php dynamic_sidebar('footer-one'); ?>
               </div>
             </section>
