@@ -42,43 +42,64 @@
       </div>
       <div class="container">  <!-- Begin Container Div -->
 
-<!-- Begin Main Content -->
-<section class="row">
-    <div class="twelve columns">
-      <!-- Begin Loop -->
-      <?php
-        if ( have_posts() ) {
-          while ( have_posts() ) {
-            the_post(); ?>
-
+      <!-- Begin Main Content -->
+      <section class="row">
+        <div class="twelve columns">
+            <h2>What Can We Do For You?</h2>
+        </div>
+      </section>
+      <section class="row">
+        <div class="four columns">
+          <img class="service1" src="<?php echo get_template_directory_uri(); ?>/images/body-repair.jpg" alt="body repair" />
+          <?php dynamic_sidebar('service1-widget'); ?>
+        </div>
+      </section>
+      <section class="row">
+        <div class="four columns">
+          <?php dynamic_sidebar('service2-widget'); ?>
+        </div>
+      </section>
+      <section class="row">
+        <div class="four columns">
+          <?php dynamic_sidebar('service3-widget'); ?>
+        </div>
+      </section>
+      <section class="row">
+          <div class="twelve columns">
+            <!-- Begin Loop -->
             <?php
-              if ( has_post_thumbnail() ) {
-                  the_post_thumbnail('thumbnail');
-              }
+              if ( have_posts() ) {
+                while ( have_posts() ) {
+                  the_post(); ?>
+
+                  <?php
+                    if ( has_post_thumbnail() ) {
+                        the_post_thumbnail('thumbnail');
+                    }
+                  ?>
+
+                  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <?php the_excerpt(); ?>
+                  <a href="<?php the_permalink(); ?>">Read More</a>
+
+              <?php
+                } //end while
+              } //end if
             ?>
-
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <?php the_excerpt(); ?>
-            <a href="<?php the_permalink(); ?>">Read More</a>
-
-        <?php
-          } //end while
-        } //end if
-      ?>
-      <!-- Add the pagination function here -->
-                <div class="row">
-                    <div class="twelve columns">
-                      <div class="pagination">
-                        <?php next_posts_link('More Posts'); ?>
+            <!-- Add the pagination function here -->
+                      <div class="row">
+                          <div class="twelve columns">
+                            <div class="pagination">
+                              <?php next_posts_link('More Posts'); ?>
+                            </div>
+                            <div class="pagination">
+                              <?php previous_posts_link('Previous Posts'); ?>
+                            </div>
+                          </div>
                       </div>
-                      <div class="pagination">
-                        <?php previous_posts_link('Previous Posts'); ?>
-                      </div>
-                    </div>
-                </div>
-      <!-- End Loop -->
-    </div>
-</section>
-<!-- End Main Content -->
+            <!-- End Loop -->
+          </div>
+      </section>
+      <!-- End Main Content -->
 
 <?php get_footer(); ?>

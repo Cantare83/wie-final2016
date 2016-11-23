@@ -34,6 +34,36 @@ function blank_widgets_init() {
       'after_title'   => '</h2>'
   ));
 
+  register_sidebar( array(
+    'name'          => ('Index Service 1 Widget'),
+    'id'            => 'service1-widget',
+    'description'   => 'Widget for the first service on the index page',
+    'before_widget' => '<div class="widget-service1">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Index Service 2 Widget'),
+  'id'            => 'service2-widget',
+  'description'   => 'Widget for the second service on the index page',
+  'before_widget' => '<div class="widget-service2">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Index Service 3 Widget'),
+  'id'            => 'service3-widget',
+  'description'   => 'Widget for the third service on the index page',
+  'before_widget' => '<div class="widget-service3">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
 }
 add_action('widgets_init', 'blank_widgets_init');
 
