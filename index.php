@@ -23,6 +23,11 @@
                     <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>
                   </div>
               </section>
+              <section class="row">
+                <div class="twelve columns">
+                  <?php dynamic_sidebar('promo-widget'); ?>
+                </div>
+              </section>
               <section class="row hp-menu">
                 <div class="twelve columns">
                 <?php

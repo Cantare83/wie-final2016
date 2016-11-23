@@ -21,6 +21,19 @@ function blank_widgets_init() {
         'before_widget' => '<div class="widget-footer widget-right">',
         'after_widget'  => '</div>'
     ));
+
+    /*--- Index Page Widgets ---*/
+
+    register_sidebar( array(
+      'name'          => ('Index Promo Widget'),
+      'id'            => 'promo-widget',
+      'description'   => 'Widget for the promo on the index page',
+      'before_widget' => '<div class="widget-promo">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+  ));
+
 }
 add_action('widgets_init', 'blank_widgets_init');
 
