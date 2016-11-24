@@ -53,15 +53,16 @@
           <img class="service1" src="<?php echo get_template_directory_uri(); ?>/images/body-repair.jpg" alt="body repair" />
           <?php dynamic_sidebar('service1-widget'); ?>
         </div>
-      </section>
-      <section class="row">
         <div class="four columns">
           <?php dynamic_sidebar('service2-widget'); ?>
         </div>
-      </section>
-      <section class="row">
         <div class="four columns">
           <?php dynamic_sidebar('service3-widget'); ?>
+        </div>
+      </section>
+      <section class="row">
+        <div class="twelve columns">
+          <?php dynamic_sidebar('index-cta-widget'); ?>
         </div>
       </section>
       <section class="row">

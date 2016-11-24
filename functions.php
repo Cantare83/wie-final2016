@@ -64,6 +64,16 @@ register_sidebar( array(
   'after_title'   => '</h4>'
 ));
 
+register_sidebar( array(
+  'name'          => ('Index CTA Widget'),
+  'id'            => 'index-cta-widget',
+  'description'   => 'Widget for the cta on the index page',
+  'before_widget' => '<div class="widget-index-cta">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
 }
 add_action('widgets_init', 'blank_widgets_init');
 
