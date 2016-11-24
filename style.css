@@ -152,13 +152,26 @@ ul {
 
 /*----- Index -----*/
 
-.container {
+.container, .blog-wrapper {
   width: 960px;
   margin: auto;
 }
 
+.service1 {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.cta-wrapper {
+  width: 100%;
+}
+
 .widget-index-cta h3 {
-  display: inline; 
+  display: inline;
+}
+
+.widget-index-cta {
+  background-image: url("images/cta-road.jpg");
 }
 
 /*----- Footer -----*/
