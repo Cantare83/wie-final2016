@@ -157,8 +157,8 @@ ul {
   margin: auto;
 }
 
-.service1 {
-  width: 90%;
+.service1, .service2, .service3 {
+  width: 100%;
   border-radius: 50%;
 }
 
