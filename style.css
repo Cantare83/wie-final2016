@@ -27,23 +27,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1 {
-    font-size: 3.0rem;
-}
-
-h2 {
     font-size: 2.5rem;
 }
 
-h3 {
-    font-size: 2.0rem;
+h2 {
+    font-size: 2rem;
 }
 
-h4 {
+h3 {
     font-size: 1.5rem;
 }
 
-h5 {
+h4 {
     font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
 }
 
 a {
@@ -55,8 +55,12 @@ p {
   text-align: justify;
 }
 
+figure {
+  margin-bottom: 1em;
+}
+
 .button {
-  color: white;
+  color: #ffffff;
   background-color: #e11e26;
   text-transform: none;
   font-size: 16px;
@@ -65,6 +69,11 @@ p {
   border: none;
   -webkit-box-shadow:inset 1px 1px 4px 2px rgba(255,255,255,0.3);
   box-shadow:inset 1px 1px 4px 2px rgba(255,255,255,0.3);
+}
+
+.button:hover {
+  color: #e11e26;
+  background-color: #ffffff;
 }
 
 /*--- Header --- */
@@ -111,7 +120,7 @@ ul {
 }
 
 .menu-header {
-    text-align: left;
+    text-align: center;
     padding-bottom: 10px;
 }
 .menu-header ul {
@@ -145,10 +154,9 @@ ul {
 /*--- Index Header --- */
 
 .hp-header-wrapper {
-  width: 100%;
-  height: auto;
   background-image: url("images/hp-header.jpg");
   background-repeat: no-repeat;
+  background-size: 100% auto;
   margin: 0px auto;
 }
 
@@ -163,6 +171,8 @@ ul {
 .container, .blog-wrapper {
   width: 960px;
   margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .widget-promo {
@@ -178,7 +188,7 @@ ul {
 }
 
 .widget-promo .button {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 1%;
   margin-bottom: 4%;
 }
@@ -186,6 +196,25 @@ ul {
 .service1, .service2, .service3 {
   width: 100%;
   border-radius: 50%;
+}
+
+.widget-service1 figure, .widget-service2 figure, .widget-service3 figure {
+  position: relative;
+}
+
+.widget-service1 figcaption, .widget-service2 figcaption, .widget-service3 figcaption {
+  position: absolute;
+  top: 50%;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+.widget-service2 figcaption {
+  margin-left: 1em;
+}
+
+.widget-service1 figcaption, .widget-service3 figcaption {
+  margin-left: 2.5em;
 }
 
 .cta-wrapper {
