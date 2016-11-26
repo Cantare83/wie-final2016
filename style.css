@@ -242,6 +242,33 @@ ul {
   margin: 1em 1em 1em 3em;
 }
 
+.index-thumbnail img {
+  border-radius: 50%;
+}
+
+.blog-wrapper h2 {
+  margin-bottom: 0;
+}
+
+.blog-link {
+  margin-left: 0;
+  margin-top: 2em;
+}
+
+.blog-link a {
+  color: #e11e26;
+  text-decoration: underline;
+  margin-right: 2em;
+}
+
+.blog-link a:hover {
+  color: #1eaedb;
+}
+
+.blog-link p {
+  margin-bottom: 1.5em;
+}
+
 /*----- Footer -----*/
 
 .footer-wrapper {
