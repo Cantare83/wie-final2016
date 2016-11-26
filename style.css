@@ -74,6 +74,8 @@ figure {
 .button:hover, #searchsubmit:hover {
   color: #e11e26;
   background-color: #ffffff;
+  -webkit-box-shadow: 1px 1px 4px 1px #4D4D4D;
+  box-shadow: 1px 1px 4px 1px #4D4D4D;
 }
 
 /*--- Header --- */

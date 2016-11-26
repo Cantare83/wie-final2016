@@ -68,18 +68,32 @@
       </div>
       <div class="blog-wrapper">
           <section class="row">
-              <div class="twelve columns">
+            <div class="twelve columns">
+                <h2>Shop Talk</h2>
+            </div>
+          </section>
+          <section class="row">
+              <div class="six columns">
                 <!-- Begin Loop -->
                 <?php
                   if ( have_posts() ) {
                     while ( have_posts() ) {
                       the_post(); ?>
 
-                      <?php
-                        if ( has_post_thumbnail() ) {
-                            the_post_thumbnail('thumbnail');
-                        }
-                      ?>
+                      <div class="index-thumbnail">
+                      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                      </div>
+
+                  <?php
+                    } //end while
+                      } //end if
+                        ?>
+                </div>
+                <div class="six columns">
+                  <?php
+                    if ( have_posts() ) {
+                      while ( have_posts() ) {
+                        the_post(); ?>
 
                       <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                       <?php the_excerpt(); ?>
@@ -89,17 +103,6 @@
                     } //end while
                   } //end if
                 ?>
-                <!-- Add the pagination function here -->
-                          <div class="row">
-                              <div class="twelve columns">
-                                <div class="pagination">
-                                  <?php next_posts_link('More Posts'); ?>
-                                </div>
-                                <div class="pagination">
-                                  <?php previous_posts_link('Previous Posts'); ?>
-                                </div>
-                              </div>
-                          </div>
                 <!-- End Loop -->
               </div>
           </section>
