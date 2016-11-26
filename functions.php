@@ -74,6 +74,46 @@ register_sidebar( array(
   'after_title'   => '</h4>'
 ));
 
+register_sidebar( array(
+  'name'          => ('Our History Widget 1'),
+  'id'            => 'history1-widget',
+  'description'   => 'First widget on the history page',
+  'before_widget' => '<div class="widget-history1">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Our History Widget 2'),
+  'id'            => 'history2-widget',
+  'description'   => 'Second widget on the history page',
+  'before_widget' => '<div class="widget-history2">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Our History Widget 3'),
+  'id'            => 'history3-widget',
+  'description'   => 'Third widget on the history page',
+  'before_widget' => '<div class="widget-history3">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Our History Widget 4'),
+  'id'            => 'history4-widget',
+  'description'   => 'Fourth widget on the history page',
+  'before_widget' => '<div class="widget-history4">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
 }
 add_action('widgets_init', 'blank_widgets_init');
 
