@@ -35,4 +35,3 @@
               </section>
           </header>
       </div>
-      <div class="container">  <!-- Begin Container Div -->

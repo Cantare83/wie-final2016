@@ -2,7 +2,7 @@
 /* Template Name: 404 page (Not Found) */
 
 get_header(); ?>
-    <div class="row">
+    <div class="row container">
         <div class="eight columns">
             <h1>Not Found</h1>
             <h2>This is somewhat embarrassing, isn't it?</h2>

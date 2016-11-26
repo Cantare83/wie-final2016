@@ -6,7 +6,7 @@ Template Name: Full Width
 
 <?php get_header(); ?>
 
-    <section class="row">
+    <section class="row container">
         <div class="twelve columns">
             <?php if( have_posts() ) {
               while( have_posts() ) {

@@ -59,6 +59,13 @@ figure {
   margin-bottom: 1em;
 }
 
+.container, .blog-wrapper {
+  width: 960px;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .button, #searchsubmit {
   color: #ffffff;
   background-color: #e11e26;
@@ -169,13 +176,6 @@ ul {
 }
 
 /*----- Index -----*/
-
-.container, .blog-wrapper {
-  width: 960px;
-  margin: auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
 
 .widget-promo {
   padding-top: 2%;

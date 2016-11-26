@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <section class="row">
+    <section class="row container">
         <div class="eight columns">
 
 <!-- Begin Page PHP -->

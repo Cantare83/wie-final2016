@@ -6,6 +6,7 @@ Template Name: Blog Posts
 
 <?php get_header(); ?>
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=3&paged='. get_query_var('paged')); ?>
+  <div class="container">
     <section class="row">
         <div class="twelve columns">
           <?php if (have_posts()) :
@@ -32,5 +33,6 @@ Template Name: Blog Posts
 
         </div>
     </section>
+  </div>
 
 <?php get_footer(); ?>
