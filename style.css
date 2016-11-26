@@ -296,6 +296,21 @@ ul {
   color: #1eaedb;
 }
 
+/*----- Single Blog Page -----*/
+
+.post-thumbnail {
+  width: 60%;
+  margin: auto;
+}
+
+.post-thumbnail img {
+  border-radius: 50%;
+}
+
+.screen-reader-text {
+  visibility: hidden;
+}
+
 /*----- Footer -----*/
 
 .footer-wrapper {

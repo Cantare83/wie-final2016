@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 
     <section class="row container">
-        <div class="twelve columns">
+        <div class="four columns">
+          <?php get_sidebar(); ?>
+        </div>
+        <div class="eight columns">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
