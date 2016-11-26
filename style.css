@@ -311,6 +311,12 @@ ul {
   visibility: hidden;
 }
 
+/*----- Our History -----*/
+
+.history1 img, .history4 img {
+  border-radius: 50%;
+}
+
 /*----- Footer -----*/
 
 .footer-wrapper {
