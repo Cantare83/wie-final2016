@@ -59,7 +59,7 @@ figure {
   margin-bottom: 1em;
 }
 
-.button {
+.button, #searchsubmit {
   color: #ffffff;
   background-color: #e11e26;
   text-transform: none;
@@ -71,7 +71,7 @@ figure {
   box-shadow:inset 1px 1px 4px 2px rgba(255,255,255,0.3);
 }
 
-.button:hover {
+.button:hover, #searchsubmit:hover {
   color: #e11e26;
   background-color: #ffffff;
 }
@@ -213,20 +213,31 @@ ul {
   margin-left: 1em;
 }
 
+.widget-service2 .button {
+  width: 100%;
+}
+
 .widget-service1 figcaption, .widget-service3 figcaption {
   margin-left: 2.5em;
 }
 
 .cta-wrapper {
   width: 100%;
+  background-image: url("images/cta-road.jpg");
 }
 
 .widget-index-cta h3 {
   display: inline;
+  text-shadow: 1px 1px 3px #4A4A4A;
 }
 
 .widget-index-cta {
-  background-image: url("images/cta-road.jpg");
+  width: 960px;
+  margin: auto;
+}
+
+.widget-index-cta .button, .widget-index-cta h3 {
+  margin: 1em 1em 1em 3em;
 }
 
 /*----- Footer -----*/
