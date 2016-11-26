@@ -40,7 +40,7 @@
               </section>
           </header>
       </div>
-      <div class="container">  <!-- Begin Container Div -->
+      <div class="index-container">  <!-- Begin Container Div -->
           <!-- Begin Main Content -->
           <section class="row">
             <div class="twelve columns">
@@ -80,7 +80,7 @@
                     while ( have_posts() ) {
                       the_post(); ?>
 
-                      <div class="index-thumbnail">
+                      <div class="thumbnail">
                       <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                       </div>
 

@@ -59,11 +59,15 @@ figure {
   margin-bottom: 1em;
 }
 
-.container, .blog-wrapper {
+.index-container, .container, .blog-wrapper {
   width: 960px;
   margin: auto;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.container {
+  padding-top: 6em;
 }
 
 .button, #searchsubmit {
@@ -90,7 +94,7 @@ figure {
 .header-wrapper {
   width: 100%;
   background-color: #0e2948;
-  position: absolute;
+  position: fixed;
   top: 0px;
   opacity: .9;
   z-index: 2;
@@ -242,7 +246,7 @@ ul {
   margin: 1em 1em 1em 3em;
 }
 
-.index-thumbnail img {
+.thumbnail img {
   border-radius: 50%;
 }
 
@@ -267,6 +271,29 @@ ul {
 
 .blog-link p {
   margin-bottom: 1.5em;
+}
+
+/*----- Blog Page -----*/
+
+.blog-excerpt h3 {
+  padding-top: 4em;
+}
+
+.blog-excerpt p {
+  padding-bottom: 2em;
+}
+
+.blog-text {
+  margin-left: 0;
+}
+
+.navigation a {
+  color: #e11e26;
+  text-decoration: underline;
+}
+
+.navigation a:hover {
+  color: #1eaedb;
 }
 
 /*----- Footer -----*/
