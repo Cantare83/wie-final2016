@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php bloginfo('name'); ?></title>
         <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
@@ -23,11 +24,6 @@
                     <a class="fa fa-linkedin" href="https://www.linkedin.com"></a>
                   </div>
               </section>
-              <section class="row">
-                <div class="twelve columns">
-                  <?php dynamic_sidebar('promo-widget'); ?>
-                </div>
-              </section>
               <section class="row hp-menu">
                 <div class="twelve columns">
                 <?php
@@ -36,6 +32,11 @@
                       'container_class' => 'menu-header'
                     ));
                 ?>
+                </div>
+              </section>
+              <section class="row">
+                <div class="twelve columns">
+                  <?php dynamic_sidebar('promo-widget'); ?>
                 </div>
               </section>
           </header>
