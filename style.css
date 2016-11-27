@@ -321,6 +321,27 @@ ul {
   margin-left: 35%;
 }
 
+/*----- Services and Promotions -----*/
+
+.widget-icon1 img, .widget-icon2 img, .widget-icon3 img {
+  width: 90%;
+  height: auto;
+}
+
+.widget-promo2 p {
+  text-align: center;
+}
+
+.widget-promo2 h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1%;
+}
+
+.promo_button a {
+  margin-left: 55%;
+}
+
 /*----- Footer -----*/
 
 .footer-wrapper {

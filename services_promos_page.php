@@ -44,7 +44,7 @@ Template Name: Our Services and Promotions Page
       </section>
 
       <section class="row">
-        <div class="twelve columns history_button">
+        <div class="twelve columns promo_button">
           <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Get An Estimate</a>
         </div>
       </section>
