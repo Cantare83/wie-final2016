@@ -371,10 +371,21 @@ form p {
   text-align: center;
 }
 
+/*----- Sidebar -----*/
+
+.sidebar {
+  border-right: .5px solid #E5E5E5;
+}
+
+.widget-sidebar h2 {
+  text-align: left;
+}
+
 /*----- Footer -----*/
 
 .footer-wrapper {
     background-color: #0e2948;
+    padding-top: 2em;
 }
 
 .footer-wrapper p {
@@ -395,4 +406,5 @@ footer .searchform {
 
 .copyright {
   text-align: center;
+  padding-bottom: 2em;
 }
