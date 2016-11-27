@@ -32,6 +32,12 @@ Template Name: Our History Page
             <?php dynamic_sidebar('history4-widget'); ?>
           </div>
       </section>
+      <section class="row">
+        <div class="twelve columns history_button">
+          <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Make An Appointment</a>
+        </div>
+
+      </section>
     </div>
 
 <?php get_footer(); ?>

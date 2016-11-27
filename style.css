@@ -317,6 +317,10 @@ ul {
   border-radius: 50%;
 }
 
+.history_button a {
+  margin-left: 35%;
+}
+
 /*----- Footer -----*/
 
 .footer-wrapper {
