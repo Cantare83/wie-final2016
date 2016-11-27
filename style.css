@@ -387,3 +387,12 @@ footer {
   width: 960px;
   margin: auto;
 }
+
+footer .searchform {
+  text-align: right;
+  padding-right: 7.5rem;
+}
+
+.copyright {
+  text-align: center;
+}
