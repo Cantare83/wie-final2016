@@ -74,6 +74,8 @@ register_sidebar( array(
   'after_title'   => '</h4>'
 ));
 
+/*--- Our History Page Widgets ---*/
+
 register_sidebar( array(
   'name'          => ('Our History Widget 1'),
   'id'            => 'history1-widget',
@@ -109,6 +111,98 @@ register_sidebar( array(
   'id'            => 'history4-widget',
   'description'   => 'Fourth widget on the history page',
   'before_widget' => '<div class="widget-history4">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+/*--- Services and Promos Page Widgets ---*/
+
+register_sidebar( array(
+  'name'          => ('Promo Widget 1'),
+  'id'            => 'promo1-widget',
+  'description'   => 'First widget on the promo page',
+  'before_widget' => '<div class="widget-promo1">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Promo Widget 2'),
+  'id'            => 'promo2-widget',
+  'description'   => 'Second widget on the promo page',
+  'before_widget' => '<div class="widget-promo2">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Promo Widget 3'),
+  'id'            => 'promo3-widget',
+  'description'   => 'Third widget on the promo page',
+  'before_widget' => '<div class="widget-promo3">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Service Icon Widget 1'),
+  'id'            => 'service-icon1-widget',
+  'description'   => 'First icon on the promo page',
+  'before_widget' => '<div class="widget-icon1">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Service Icon Widget 2'),
+  'id'            => 'service-icon2-widget',
+  'description'   => 'Second icon on the promo page',
+  'before_widget' => '<div class="widget-icon2">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Service Icon Widget 3'),
+  'id'            => 'service-icon3-widget',
+  'description'   => 'Third icon on the promo page',
+  'before_widget' => '<div class="widget-icon3">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Service Page Widget 1'),
+  'id'            => 'service-page1-widget',
+  'description'   => 'First text area on the promo page',
+  'before_widget' => '<div class="widget-page1">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Service Page Widget 2'),
+  'id'            => 'service-page2-widget',
+  'description'   => 'Second text area on the promo page',
+  'before_widget' => '<div class="widget-page2">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h4>',
+  'after_title'   => '</h4>'
+));
+
+register_sidebar( array(
+  'name'          => ('Service Page Widget 3'),
+  'id'            => 'service-page3-widget',
+  'description'   => 'Third text area on the promo page',
+  'before_widget' => '<div class="widget-page3">',
   'after_widget'  => '</div>',
   'before_title'  => '<h4>',
   'after_title'   => '</h4>'
