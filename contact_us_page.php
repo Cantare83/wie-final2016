@@ -38,7 +38,7 @@ Template Name: Contact Us Page
 
       <section class="row">
           <div class="twelve columns">
-            <?php dynamic_sidebar('contact-form-widget'); ?>
+            <?php echo do_shortcode("[HTML-CF]"); ?>
           </div>
       </section>
     </div>

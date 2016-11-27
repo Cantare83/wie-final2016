@@ -260,16 +260,6 @@ register_sidebar( array(
   'after_title'   => '</h4>'
 ));
 
-register_sidebar( array(
-  'name'          => ('Contact Form Widget'),
-  'id'            => 'contact-form-widget',
-  'description'   => 'Form widget on the contact page',
-  'before_widget' => '<div class="widget-contact-form">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h4>',
-  'after_title'   => '</h4>'
-));
-
 }
 add_action('widgets_init', 'blank_widgets_init');
 
