@@ -321,6 +321,10 @@ ul {
   margin-left: 35%;
 }
 
+.widget-history2 img {
+  width: 40%;
+}
+
 /*----- Services and Promotions -----*/
 
 .widget-icon1 img, .widget-icon2 img, .widget-icon3 img {
