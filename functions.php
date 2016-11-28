@@ -303,4 +303,22 @@ function custom_web_resources() {
 }
 add_action('init', 'custom_web_resources');
 
+/*--- Enqueing CSS Files ---*/
+
+function normalize_css() {
+  wp_enqueue_style(
+    'normalize-css',
+    get_template_directory_uri() . '/stylesheets/normalize.css'
+  );
+}
+add_action('wp_enqueue_scripts', 'normalize_css');
+
+function skeleton_css() {
+  wp_enqueue_style(
+    'skeleton-css',
+    get_template_directory_uri() . '/stylesheets/skeleton.css'
+  );
+}
+add_action('wp_enqueue_scripts', 'skeleton_css');
+
 ?>

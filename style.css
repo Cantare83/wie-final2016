@@ -8,8 +8,6 @@ License: Open
 Text Domain: hendricks-wie-final2016
 */
 
-@import url("stylesheets/normalize.css");
-@import url("stylesheets/skeleton.css");
 @import url('https://fonts.googleapis.com/css?family=Lato|Righteous');
 
 html, body{
