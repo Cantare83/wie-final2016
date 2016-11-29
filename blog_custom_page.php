@@ -9,7 +9,7 @@ Template Name: Blog Posts
   <div class="container">
     <section class="row">
       <div class="twelve columns">
-      <h2>Shop Talk</h2>
+      <h1>Shop Talk</h1>
       </div>
     </section>
     <section class="row">
@@ -33,7 +33,7 @@ Template Name: Blog Posts
               <?php if (have_posts()) :
                   while (have_posts()) : the_post(); ?>
 
-                      <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
                       <span class="date"><?php echo get_the_date(); ?></span>
 

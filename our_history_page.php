@@ -8,7 +8,7 @@ Template Name: Our History Page
     <div class="container">
       <section class="row">
         <div class="twelve columns">
-          <h2>Meet Slick</h2>
+          <h1>Our History</h1>
         </div>
       </section>
       <section class="row">
@@ -18,11 +18,6 @@ Template Name: Our History Page
           <div class="six columns">
             <?php dynamic_sidebar('history2-widget'); ?>
           </div>
-      </section>
-      <section class="row">
-        <div class="twelve columns">
-          <h2>Our Employees</h2>
-        </div>
       </section>
       <section class="row">
           <div class="six columns">

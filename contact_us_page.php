@@ -8,7 +8,7 @@ Template Name: Contact Us Page
     <div class="container">
       <section class="row">
         <div class="twelve columns">
-          <h2>Contact Us</h2>
+          <h1>Contact Us</h1>
         </div>
       </section>
 

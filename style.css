@@ -15,6 +15,7 @@ html, body{
     font-size: 16px;
     line-height: 1.5em;
     font-family: 'Lato', sans-serif;
+    letter-spacing: .5px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -22,14 +23,15 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Righteous', cursive;
     margin-bottom: 2%;
     text-align: center;
+    letter-spacing: .5px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h3 {
@@ -58,7 +60,7 @@ figure {
 }
 
 .index-container, .container, .blog-wrapper {
-  width: 960px;
+  width: 940px;
   margin: auto;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -106,7 +108,7 @@ figure {
 }
 
 header {
-  width: 960px;
+  width: 940px;
   margin: auto;
 }
 
@@ -184,7 +186,7 @@ ul {
   margin-left: 10%;
 }
 
-.widget-promo h2, h3 {
+.widget-promo h1, .widget-promo h2 {
   color: #ffffff;
   font-family: 'Lato', sans-serif;
   margin-bottom: 1%;
@@ -231,12 +233,13 @@ ul {
 }
 
 .widget-index-cta h3 {
+  color: #ffffff;
   display: inline;
   text-shadow: 1px 1px 3px #4A4A4A;
 }
 
 .widget-index-cta {
-  width: 960px;
+  width: 940px;
   margin: auto;
 }
 
@@ -273,8 +276,8 @@ ul {
 
 /*----- Blog Page -----*/
 
-.blog-excerpt h3 {
-  padding-top: 4em;
+.blog-excerpt h2 {
+  padding-top: 3em;
 }
 
 .blog-excerpt p {
@@ -334,7 +337,7 @@ ul {
   text-align: center;
 }
 
-.widget-promo2 h4 {
+.widget-promo2 h3 {
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
   margin-bottom: 1%;
@@ -346,9 +349,11 @@ ul {
 
 /*----- Contact Page -----*/
 
-.widget-contact1 h4, .widget-contact2 h4, .widget-contact3 h4 {
+.contact-info p {
   color: #e11e26;
   font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0;
 }
 
 .widget-contact1 p, .widget-contact2 p, .widget-contact3 p {
@@ -364,7 +369,7 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-.widget-contact-message h3 {
+.widget-contact-message h2 {
   color: #0e2948;
   text-align: center;
 }
@@ -397,7 +402,7 @@ form p {
 }
 
 footer {
-  width: 960px;
+  width: 940px;
   margin: auto;
 }
 

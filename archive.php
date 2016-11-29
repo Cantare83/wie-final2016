@@ -5,13 +5,13 @@ get_header(); ?>
 <div class="container">
     <div class="row">
         <div class="twelve columns">
-            <h2>Archives</h2>
+            <h1>Archives</h1>
             <?php if ( have_posts() ) : ?>
                 <?php
                 // The Loop
                 while ( have_posts() ) : the_post();?>
                 <!-- data context -->
-                    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                    <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                     <?php the_excerpt(); ?>
                 <?php endwhile; ?> <!-- End Loop -->
             <?php else: ?>

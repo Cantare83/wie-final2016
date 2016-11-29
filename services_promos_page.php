@@ -7,6 +7,11 @@ Template Name: Our Services and Promotions Page
 <?php get_header(); ?>
     <div class="container">
       <section class="row">
+        <div class="twelve columns">
+          <h1>Services & Promotions</h1>
+        </div>
+      </section>
+      <section class="row">
         <div class="four columns">
           <?php dynamic_sidebar('promo1-widget'); ?>
         </div>
