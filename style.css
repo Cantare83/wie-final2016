@@ -67,7 +67,7 @@ figure {
 }
 
 .container {
-  padding-top: 6em;
+  padding-top: 10em;
 }
 
 .button, #searchsubmit {
@@ -134,7 +134,8 @@ ul {
 
 .menu-header {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 .menu-header ul {
     margin: 0;
@@ -151,8 +152,25 @@ ul {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration:none;
-    padding: 0px 25px 0px 25px;
-    border-right: solid 1px #ffffff;
+    padding-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.menu-header ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #1eaedb;
+  transition: 0.4s;
+  text-shadow: 1px 1px 3px #4A4A4A;
+}
+
+.menu-header ul li a:hover:after {
+  width: 100%;
 }
 
 .menu-header li:last-child a {
