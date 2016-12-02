@@ -7,6 +7,7 @@
         <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
     </head>
     <body>
       <div class="hp-header-wrapper">
