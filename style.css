@@ -118,8 +118,16 @@ header {
   padding-right: 1.5em;
 }
 
-.site-logo {
-  max-width: 90%;
+@media (min-width: 400px) {
+  .site-logo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 800px) {
+  .site-logo {
+    width: 90%;
+  }
 }
 
 .fa {
