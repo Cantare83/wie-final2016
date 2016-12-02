@@ -164,9 +164,8 @@ ul {
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 2px solid #1eaedb;
+  border-bottom: 2px solid #e11e26;
   transition: 0.4s;
-  text-shadow: 1px 1px 3px #4A4A4A;
 }
 
 .menu-header ul li a:hover:after {
@@ -178,8 +177,7 @@ ul {
 }
 
 .menu-header ul li a:hover {
-    color: #1eaedb;
-    text-shadow: 1px 1px 3px #4A4A4A;
+    color: #e11e26;
 }
 
 /*--- Index Header --- */
@@ -341,6 +339,7 @@ ul {
 
 .widget-history2 img {
   width: 40%;
+  padding-bottom: 2.5rem;
 }
 
 /*----- Services and Promotions -----*/
@@ -393,6 +392,10 @@ ul {
 
 form p {
   text-align: center;
+}
+
+.searchform input[type="text"] {
+  width: auto;
 }
 
 /*----- Sidebar -----*/
