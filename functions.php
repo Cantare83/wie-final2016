@@ -323,6 +323,17 @@ function enqueue_main_js() {
     true
   );
 }
-add_action('wp_enqueue_scripts', 'enqueue_main_js')
+add_action('wp_enqueue_scripts', 'enqueue_main_js');
+
+function enqueue_fontawesome() {
+  wp_enqueue_script(
+    'fontawesome',
+    'https://use.fontawesome.com/f9fd5646bd.js',
+    array('jquery'),
+    '',
+    true
+  );
+}
+add_action('wp_enqueue_scripts', 'enqueue_fontawesome')
 
 ?>
