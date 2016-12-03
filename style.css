@@ -47,7 +47,7 @@ h5 {
 }
 
 a {
-    color: #0e2948;
+    color: #e11e26;
     text-decoration: none;
 }
 
@@ -132,6 +132,10 @@ header {
 
 .fa {
   color: #ffffff;
+}
+
+.fa:hover {
+  color: #e11e26;
 }
 
 /*--- Menu --- */
