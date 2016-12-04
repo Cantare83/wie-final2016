@@ -374,7 +374,7 @@ ul {
 
 .history1 img, .history4 img {
   border-radius: 50%;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -392,6 +392,11 @@ ul {
 
 .widget-icon1 img, .widget-icon2 img, .widget-icon3 img {
   max-width: 90%;
+  height: auto;
+}
+
+.widget-promo1 img, .widget-promo3 img {
+  max-width: 100%;
   height: auto;
 }
 
