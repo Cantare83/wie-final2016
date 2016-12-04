@@ -121,20 +121,8 @@ header {
 
 .header-wrapper p {
   color: #ffffff;
+  display: inline;
   padding-right: 1.5em;
-}
-
-@media (min-width: 400px) {
-  .header-wrapper p {
-    display: block;
-    margin-bottom: 0px;
-  }
-}
-
-@media (min-width: 800px) {
-  .header-wrapper p {
-    display: inline;
-  }
 }
 
 @media (min-width: 400px) {
